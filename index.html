@@ -15,97 +15,96 @@
 
 <body>
   <header>
-    <img class="center-block" src="assets/images/logoForma.png" alt="logo-labcar">
-    <div class="content-hamburguer">
+    <img class="center-block logo-left" src="assets/images/logoForma.png" alt="logo-labcar">
+    <div class="visible-xs content-hamburguer">
       <a class="hamburguer" href="#"></a>
+    </div>
+    <div class="visible-md visible-sm visible-lg nav-header">
+      <ul>
+        <li class="weight">Viaja</li>
+        <li class="weight">Conduce</li>
+        <li class="weight" data-toggle="modal" data-target="#myModalLogin">Inicia sesión</li>
+      </ul>
     </div>
   </header>
   <section class="banner container">
     <div class="row">
-      <div class="first col-xs-10 col-xs-offset-2">
-        <p class="weight h2">Comienza a viajar
+      <div class="first col-xs-10 col-xs-offset-2 col-md-5 col-sm-5 col-sm-offset-7 col-md-offset-7 col-lg-5 col-lg-offset-7">
+        <p class="visible-xs weight h2">Comienza a viajar
           <br> con
           <img src="assets/images/logoBlanco.png" alt="logo-labcar">
         </p>
-        <button class="weight btn btn-default">Descarga el app</button>
+        <button class="visible-xs weight btn btn-default">Descarga el app</button>
+        <p class="h2 visible-md visible-sm  visible-lg weight">Disfruta del viaje
+          <br> Eres dueño de tu tiempo</p>
+        <p class="h4 visible-md visible-sm  visible-lg weight">Viaja con
+          <img src="assets/images/logoBlanco.png" alt="logo-labcar">
+        </p>
+        <button type="button" class="visible-md visible-sm  visible-lg weight btn btn-default" data-toggle="modal" data-target="#myModalRegister">REGÍSTRATE</button>
+        <div class="banner-obien visible-lg visible-md visible-sm ">
+          <a class="weight" href="#">O bien</a>
+        </div>
+        <br>
+        <button type="button" class="visible-md visible-sm  visible-lg weight btn btn-default" data-toggle="modal" data-target="#myModalConvierte">Conviértete en un conductor</button>
       </div>
     </div>
   </section>
   <section class="app container">
-    <div class="iphone">
-      <p class="h4 weight text-center">La nueva app</p>
-      <img class="center-block" src="assets/images/iPhone6Plus.png" alt="iphone">
+    <div class="row">
+      <div class="iphone col-md-10 col-sm-10 col-lg-10">
+        <div class="text-app col-md-4 col-sm-4 col-lg-4">
+          <p class=" visible-xs h4 weight text-center">La nueva app</p>
+          <p class="visible-md visible-sm  visible-lg h2 weight">Descarga la nueva app</p>
+          <br>
+          <p class="h4 visible-md visible-sm  visible-lg">La versión actualizada de LabCar esta llena de nuevas funciones para llegar a donde quieras aún más fácil y rápido.</p>
+          <p class="h4 visible-md visible-sm  visible-lg">Con sólo tocar un boton, un auto llega justo a tu ubicación. Súbete y no te preocupes: tu conductor sabe exactamente
+            a donde ir</p>
+        </div>
+        <img class="center-block visible-xs" src="assets/images/iPhone6Plus.png" alt="iphone">
+        <img class="visible-md visible-sm  visible-lg" src="assets/images/iPhone6Plus.png" alt="iphone">
+      </div>
+      <p class="app-p visible-xs h5 weight">LLega a tu destino aún más rápido.</p>
     </div>
-    <p class="h5 weight">LLega a tu destino aún más rápido</p>
   </section>
   <section class="conduce container">
     <div class="row opacity">
-      <div class="conviertete col-xs-12">
-        <p class="h5 weight">Conduce cuando quieras</p>
-        <p class="h5">LabCar es una opción flexible para alcanzar tus metas financieras.</p>
-        <button type="button" class="btn weight" data-toggle="modal" data-target="#myModal">Conviértete en conductor</button>
-        <!-- Modal : Convierte en conductor -->
-        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-          <div class="modal-content">
-            <div class="modal-header">
-              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
-              </button>
-            </div>
-            <div class="modal-body">
-              <p class="h4 weight">¿Tienes vehículo de 4 puertas?</p>
-              <select class="btn btn-default" name="" id="">
-                <option value="">SI</option>
-                <option value="">NO</option>
-              </select>
-              <p class="h4 weight">Marca</p>
-              <select class="btn btn-default" name="" id="">
-                <option value="">TOYOTA</option>
-                <option value="">NISSAN</option>
-              </select>
-              <p class="h6">No ves tu vehículo en la lista? Envía un correo electrónico a  <a href="">sociosmdv@uber.com</a></p>
-              <p class="h4 weight">Modelo</p>
-              <select class="btn btn-default" name="" id="">
-                  <option value="">HIACE</option>
-                  <option value="">SENTRA</option>
-                </select>
-              <p class="h4 weight">Año</p>
-              <select class="btn btn-default" name="" id="">
-                  <option value="">2016</option>
-                  <option value="">2017</option>
-                </select>
-              <p class="h4 weight">Número de matrícula</p>
-              <input class="btn" type="text">
-              <p class="h6">La información de la matrícula ayuda a los clientes a identificar tu vehiculo.</p>
-            </div>
-            <div class="modal-footer">
-              <button type="button" class="btn weight">ENVIAR</button>
-            </div>
-          </div>
-          <!--Fin-->
+      <div class="conviertete opacity-md col-xs-12 col-md-4 col-md-offset-8 col-sm-4 col-sm-offset-8 col-lg-4 col-lg-offset-8">
+        <div class="text-conduce">
+          <p class="h5 visible-xs weight">Conduce cuando quieras</p>
+          <p class="h5 visible-xs">LabCar es una opción flexible para alcanzar tus metas financieras.</p>
+          <p class="h2 visible-lg visible-md visible-sm  weight">Conduce cuando quieras</p>
+          <p class="h4 visible-lg visible-md visible-sm  conduce-metas">LabCar es una opción flexible para alcanza tus metas financieras.</p>
+          <button type="button" class="btn weight btn-md" data-toggle="modal" data-target="#myModalConvierte">Conviértete en conductor</button>
         </div>
       </div>
+    </div>
     </div>
   </section>
   <section class="tarifas container">
     <div class="row">
       <div class="col-xs-12">
-        <p class="h5 weight">Tarifas</p>
-        <p class="h5">Consulta las tarifas de LabCar aquí</p>
-        <form>
-          <div>
-            <img src="assets/images/shape.png" alt="shape">
-            <input type="text" placeholder="Ingrese su punto de partida">
-          </div>
-          <div>
-            <img src="assets/images/shape2.png" alt="shape">
-            <input type="text" placeholder="Ingrese su destino">
-          </div>
-          <br>
-          <button class="center-block btn btn-default weight">¡TRAZAR RUTA!</button>
-        </form>
-        <div class="map">
-          <img src="assets/images/map.png" alt="mapa">
+        <div class="text-tarifas col-md-6 col-sm-6 col-lg-6">
+          <p class="visible-xs h4 weight">Tarifas</p>
+          <p class="visible-xs h5">Consulta las tarifas de LabCar aquí</p>
+          <p class="visible-md visible-sm  visible-lg h2 weight">Tarifas</p>
+          <p class="visible-md visible-sm  visible-lg h4">Consulta las tarifas de LabCar aquí</p>
+          <form>
+            <div>
+              <img src="assets/images/shape.png" alt="shape">
+              <input type="text" placeholder="Ingrese su punto de partida">
+            </div>
+            <div>
+              <img src="assets/images/shape2.png" alt="shape">
+              <input type="text" placeholder="Ingrese su destino">
+            </div>
+            <br>
+            <button class="center-block btn btn-default weight btn-ruta">¡TRAZAR RUTA!</button>
+          </form>
+        </div>
+        <div class="map col-md-4 col-sm-4 col-lg-4">
+          <img class="visible-xs img-responsive" src="assets/images/map.png" alt="mapa">
+          <img class="visible-md visible-sm  visible-lg img-responsive" src="assets/images/map-desktop.png" alt="mapa">
+
         </div>
       </div>
     </div>
@@ -114,18 +113,8 @@
     <div class="row">
       <div class="col-xs-12">
         <img class="logo-footer" src="assets/images/logoBlanco.png" alt="logo-labcar">
-        <hr>
-        <ul class="footer-nav">
-          <li>Viaja</li>
-          <li>Conduce</li>
-          <li>Ciudades</li>
-          <li>Ciudades</li>
-          <li>Entregas</li>
-          <li>Cómo funciona?</li>
-          <li>Países</li>
-          <li>Seguridad</li>
-        </ul>
-        <ul class="text-right red-social">
+        <hr class="col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1 col-lg-10 col-lg-offset-1">
+        <ul class="text-right red-social col-md-2 col-sm-2 col-lg-2">
           <li>
             <i class="fa fa-facebook" aria-hidden="true"></i>
           </li>
@@ -142,15 +131,139 @@
             <i class="fa fa-play" aria-hidden="true"></i>
           </li>
         </ul>
-        <div class="store">
-          <img class="play" src="assets/images/enBadgeWebGeneric.png" alt="play-store">
-          <img class="play" src="assets/images/appstore.png" alt="play-store">
+        <ul class="footer-nav col-md-2 col-md-offset-1 col-sm-2 col-sm-offset-1 col-lg-2 col-lg-offset-1">
+          <li>Viaja</li>
+          <li>Conduce</li>
+          <li>Ciudades</li>
+          <li>Ciudades</li>
+          <li>Entregas</li>
+          <li>Cómo funciona?</li>
+          <li>Países</li>
+          <li>Seguridad</li>
+        </ul>
+        <ul class="visible-md visible-sm  visible-lg col-md-2 col-sm-2 col-lg-2 footer-api">
+          <li>Oportunidades</li>
+          <li>Nuestra historia</li>
+          <li>API de LabCar</li>
+          <li>Eventos</li>
+          <li>Desarrolladores</li>
+          <li>Servicios</li>
+          <li>Laboratoria</li>
+          <li>Coders</li>
+        </ul>
+        <div class="store col-md-2 col-sm-2 col-lg-2">
+          <img class="play img-responsive" src="assets/images/enBadgeWebGeneric.png" alt="play-store">
+          <img class="play img-responsive" src="assets/images/appstore.png" alt="play-store">
         </div>
-        <hr>
-        <p>© 2017 LabCar technologies Inc.</p>
+        <hr class="col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1 col-lg-10 col-lg-offset-1">
+        <p class="col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1 col-lg-10 col-lg-offset-1">© 2017 LabCar technologies Inc.</p>
       </div>
     </div>
   </footer>
+  <!-- Modal : Registrate -->
+  <div class="modal fade" id="myModalRegister" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <button type="button" class="btn btn-body weight">Ya tienes una cuenta?</button>
+        <p class="text-center p-register">O CREA UNA CUENTA NUEVA</p>
+        <input class=" input-one " type="text" placeholder="Nombre">
+        <input class="input-two" type="text" placeholder="Apellido">
+        <input class="" type="text" placeholder="Correo Electronico ejemplo@correo.mx">
+        <input class="" type="text" placeholder="Teléfono">
+        <input class="" type="text" placeholder="Contraseña">
+        <input class="" type="text" placeholder="Ciudad">
+        <input class="" type="text" placeholder="Opcional (Coódigo de ciudad)">
+        <select class="btn btn-default" name="" id="">
+          <option value="">Como te enteraste de nosotros?</option>
+        </select>
+        <div class="modal-footer">
+          <button type="button" class="btn weight">ENVIAR</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--Fin-->
+  <!-- Modal : Convierte en conductor -->
+  <div class="modal fade" id="myModalConvierte" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p class="h4 weight">¿Tienes vehículo de 4 puertas?</p>
+        <select class="btn btn-default" name="" id="">
+          <option value="">SI</option>
+          <option value="">NO</option>
+        </select>
+        <p class="h4 weight">Marca</p>
+        <select class="btn btn-default" name="" id="">
+          <option value="">TOYOTA</option>
+          <option value="">NISSAN</option>
+        </select>
+        <p class="h6">No ves tu vehículo en la lista? Envía un correo electrónico a
+          <a href="">sociosmdv@uber.com</a>
+        </p>
+        <p class="h4 weight">Modelo</p>
+        <select class="btn btn-default" name="" id="">
+          <option value="">HIACE</option>
+          <option value="">SENTRA</option>
+        </select>
+        <p class="h4 weight">Año</p>
+        <select class="btn btn-default" name="" id="">
+          <option value="">2016</option>
+          <option value="">2017</option>
+        </select>
+        <p class="h4 weight">Número de matrícula</p>
+        <input class="btn" placeholder="Número de matricula" type="text">
+        <p class="h6">La información de la matrícula ayuda a los clientes a identificar tu vehiculo.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn weight">ENVIAR</button>
+      </div>
+    </div>
+  </div>
+  <!--Fin-->
+  <!-- Modal : Inicia sesión -->
+  <div class="modal fade" id="myModalLogin" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+        <img src="assets/images/user.png" alt="user" class="center-block logo-user">
+        <hr>
+      </div>
+      <div class="modal-body">
+        <form class="form-login">
+          <div class="input-group input-group-lg">
+            <span class="input-group-addon" id="sizing-addon1">
+              <span class="glyphicon glyphicon-user" aria-hidden="true"></span></span>
+              <input type="text" class="form-control" placeholder="Username" aria-describedby="sizing-addon1">
+          </div>
+          <div class="input-group input-group-lg">
+            <span class="input-group-addon" id="sizing-addon1">
+              <span class="glyphicon glyphicon-lock" aria-hidden="true"></span></span>
+              <input type="text" class="form-control" placeholder="Password" aria-describedby="sizing-addon1">
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn weight">LOGIN</button>
+            <p>Forgot password?
+              <a href="#">Click Here</a>
+            </p>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+  </div>
+  <!--Fin-->
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   <script type="text/javascript" src="vendors/bootstrap/js/bootstrap.min.js"></script>

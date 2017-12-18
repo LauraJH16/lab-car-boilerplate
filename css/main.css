@@ -101,15 +101,16 @@ header img {
     border: none;
     color: #000;
 }
-
-.map img {
-    width: 100%;
-}
-
 .iphone {
     border: 1px solid #fff;
     margin: 30px 0;
     padding: 35px 0;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+.app-p {
+    margin-left: 15px;
 }
 
 .iphone img {
@@ -157,7 +158,7 @@ form div {
     border-radius: 8px;
     padding: 9px;
     outline: none;
-    width: 280px;
+    width: 90%;
     left: 15px;
     font-size: 12px;
 }
@@ -175,7 +176,7 @@ form div {
 
 .map {
     border: 1px solid #fff;
-    margin: 30px 0;
+    margin: 2em 0;
 }
 
 .map img {
@@ -210,8 +211,6 @@ footer ul {
 }
 
 .red-social {
-    margin-top: -280px;
-    margin-bottom: 200px;
     margin-right: 53px;
 }
 
@@ -232,7 +231,7 @@ footer ul {
 .store {
     margin-top: -175px;
     margin-left: 160px;
-    margin-bottom: 150px;
+    margin-bottom: 100px;
 }
 
 footer p {
@@ -246,9 +245,13 @@ footer p {
 
 /* -- Modal -- */
 
+.modal-open {
+    padding-right: 0;
+}
+
 .modal-content {
-    background-color: #2b2b2b;
-    outline: none;
+    background-color: #777777;
+    outline: none
 }
 
 .modal-header, .modal-footer {
@@ -260,7 +263,7 @@ footer p {
 }
 
 .modal-body{
-    margin-top: -8%;
+    margin-top: -6%;
 }
 
 .modal-body a{
@@ -270,7 +273,7 @@ footer p {
 .modal-footer button{
     background-color: rgb(18, 159, 214);
     width: 100%;
-    margin-top: -15px;
+    margin-top: 10px;
     margin-bottom: 20px;
     padding: 10px;
 }
@@ -282,3 +285,297 @@ footer p {
     color: #fff;
     z-index: 1000;
 }
+
+
+
+@media (min-width: 768px) {
+
+    .nav-header ul li{
+        display: inline-block;
+        color: #2b2b2b;
+        margin-right: 45px;
+        font-size: 18px;
+    }
+
+    .nav-header ul li:hover {
+        cursor: pointer;
+        color: #f7b617;
+    }
+
+    .nav-header ul {
+        float: right;
+        margin-right: 80px;
+        margin-top: 1%;
+    }
+
+    .logo-left {
+        margin-left: 100px;
+    }
+
+    .banner {
+        height: 688px;
+    }
+
+    .first {
+        height: 50%;
+    }
+
+    .banner-obien::after, .banner-obien::before {
+        width: 110px;
+        height: 1px;
+        background: #fff;
+        content: ' ';
+        display: inline-block;
+    }
+
+    .banner-obien {
+        margin-left: 5%;
+    }
+
+    .banner-obien a{
+        color: #fff;
+        margin: 0 35px;
+    }
+
+    .text-app {
+        width: 40%;
+        float: right;
+    }
+
+    .app {
+        height: 530px;
+    }
+
+    .app img {
+        width: 300px;
+        height: auto;
+        margin-left: 8%
+    }
+
+    .iphone {
+        padding: 60px;
+        border-left: none;
+        margin-left: 0;
+    }
+
+    .container {
+        width: 100%;
+    }
+
+    .conviertete {
+        float: right;
+        margin-top: 0;
+    }
+
+    .opacity {
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0);
+    }
+
+    .opacity-md {
+        height: 100%;
+        background-color: rgba(0, 0, 0, .4);
+    }
+
+    .btn-md {
+        font-size: 18px;
+        padding: 8px;
+    }
+
+    .conduce-metas {
+        line-height: 1.5em;
+    }
+
+    .text-conduce {
+        margin-top: 27%;
+    }
+
+    .conduce {
+        background-image: url('../assets/images/conduce.jpg');
+        height: 445px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        position: relative;
+    }
+
+    .text-tarifas {
+        margin-top: 4em;
+    }
+
+    .tarifas {
+        height: 567px;
+    }
+
+    .map {
+        margin-top: 6em;
+        margin-left: 10em;
+    }
+
+    .map img {
+        width: auto;
+        height: 375px;
+    }
+
+    .btn-ruta {
+        float: left;
+        margin-left: 7%;
+        padding: 15px 25px;
+    }
+
+    .tarifas form {
+        margin-left: 80px;
+        margin-top: 50px;
+    }
+
+    .tarifas p {
+        margin-left: 7%;
+    }
+
+    .tarifas input {
+        padding: 13px;
+        font-size: 14px;
+    }
+
+    .footer-api li {
+        margin-bottom: 14px;
+    }
+
+    .footer-api {
+        margin-top: 2em;
+    }
+
+    .footer-api li:hover, .footer-nav li:hover, .red-social li:hover {
+        cursor: pointer;
+        color: #f7b617;
+    }
+
+    .footer-nav {
+        margin-top: 2em;
+    }
+
+    .red-social {
+        margin-top: 20em;
+        margin-bottom: 0;
+        margin-left: 4em;
+    }
+    
+    .store {
+        margin-top: 0;
+        padding-top: 10em;
+        margin-left:6em;
+        margin-bottom: 0;
+    }
+
+    .logo-footer {
+        margin-left: 6em;
+        margin-top: 5em;
+    }
+
+    footer p {
+        margin-bottom: 5em;
+    }
+
+    body.modal-open {
+        padding-right: 0px !important;
+    }
+
+    .modal {
+        width: 40%;
+        margin: auto auto;
+    }
+
+    .modal-body {
+        margin-top: -2.5%;
+    }
+
+    .btn-body {
+        background-color: rgb(0, 0, 0);
+        width: 100%;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        padding: 10px;
+    }
+
+    .btn-body:hover {
+        color: #817f7f;
+    }
+
+    .modal-body input {
+        color: #000;
+        display: inline-block;
+        padding: 6px 12px;
+        margin-bottom: 0;
+        font-size: 14px;
+        font-weight: normal;
+        line-height: 1.42857143;
+        text-align: left;
+        white-space: nowrap;
+        vertical-align: middle;
+        -ms-touch-action: manipulation;
+            touch-action: manipulation;
+        cursor: pointer;
+        -webkit-user-select: none;
+           -moz-user-select: none;
+            -ms-user-select: none;
+                user-select: none;
+        background-image: none;
+        border: 1px solid transparent;
+        border-radius: 4px;
+    }
+
+    .p-register {
+        color: #000;
+    }
+
+    #myModalRegister input::placeholder{
+        color: #2b2b2b;
+    }
+
+    .modal-body input {
+        margin-bottom: 1em;
+    }
+
+    .input-one , .input-two {
+        width: 48% !important;
+        display: inline-block !important;
+    }
+
+    .input-two {
+        margin-left: 1% !important;
+    }
+
+    #myModalLogin .modal-content{
+        background-color: #08ac9d;
+    }
+
+    #myModalLogin {
+        width: 45%;
+        margin-top: 3em;
+    }
+
+    #myModalLogin .modal-footer {
+        margin-bottom: 0;
+    }
+
+    #myModalLogin .modal-footer p{
+        color: #000;
+    }
+
+    .form-login {
+        background-color: #f5f5f5;
+        width: 50%;
+        margin: 0 auto;
+        border-radius: 5px;
+        padding: 20px;
+    }
+
+    .form-login button {
+        background-color: #f7b617;
+    }
+
+    .logo-user {
+        width: 150px;
+    }
+}
+
