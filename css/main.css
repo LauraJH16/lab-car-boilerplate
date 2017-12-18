@@ -482,7 +482,8 @@ footer p {
 
     .modal {
         width: 40%;
-        margin: auto auto;
+        margin: 0 auto;
+        margin-top: 2em;
     }
 
     .modal-body {
@@ -551,7 +552,6 @@ footer p {
 
     #myModalLogin {
         width: 45%;
-        margin-top: 3em;
     }
 
     #myModalLogin .modal-footer {
