@@ -1,17 +1,23 @@
-# Reto 2 - Mi página
+# Reto - LabCar
 
 ## Objetivo:
-En este reto, vamos a realizar una página a nuestro gusto.
 
-El diseño lo puedes realizar como mejor te parezca, pero debes mantener la estructura de la página y debes realizarlo con un grid (cualquiera pero que no sea un framework como Bootstrap o Materialize). La estructura de la página es la siguiente:
+### Versión Desktop:
 
-![Objetivo-Desktop](assets/docs/obj-desktop.png)
-![Objetivo-Mobile](assets/docs/obj-mobile.png)
+Recrear la siguiente página.
+
+![Objetivo-Desktop](assets/docs/desktop-obj.png)
+
+### Versión Mobile:
+
+Y obviamente no podemos dejar de lado la versión móvil, así que créala como segunda parte.
+
+![Objetivo-Mobile](assets/docs/mobile-obj.png)
 
 ## Resultado:
 
-![Resultado-Desktop](assets/docs/res-desktop.png)
-![Resultado-Mobile](assets/docs/res-mobile.png)
+![Resultado-Desktop](assets/docs/desktop-res.png)
+![Resultado-Mobile](assets/docs/mobile-res.png)
 
 ## Autora: 
 
