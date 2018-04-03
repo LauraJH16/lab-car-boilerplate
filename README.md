@@ -4,6 +4,8 @@ Página Web Responsive que te indica donde estás y traza rutas de un punto a ot
 
 ![Resultado](http://i64.tinypic.com/15gftw4.png)
 
+## Desarrollado para [Laboratoria](http://laboratoria.la)
+
 ## Objetivo:
 
 ### Versión Desktop:
